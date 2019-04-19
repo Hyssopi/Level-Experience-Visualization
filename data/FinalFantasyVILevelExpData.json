@@ -1,0 +1,170 @@
+{
+  "gameName": "Final Fantasy VI",
+  "titleImageUri": "images/titles/FinalFantasyVITitle.png",
+  "references":
+  [
+    "https://finalfantasy.fandom.com/wiki/Final_Fantasy_VI",
+    "https://finalfantasy.fandom.com/wiki/Final_Fantasy_VI_stats"
+  ],
+  "data":
+  [
+    {"level": 1, "cumulativeExperience": 0, "experienceToNextLevel": 32},
+    {"level": 2, "cumulativeExperience": 32, "experienceToNextLevel": 64},
+    {"level": 3, "cumulativeExperience": 96, "experienceToNextLevel": 112},
+    {"level": 4, "cumulativeExperience": 208, "experienceToNextLevel": 192},
+    {"level": 5, "cumulativeExperience": 400, "experienceToNextLevel": 272},
+    {"level": 6, "cumulativeExperience": 672, "experienceToNextLevel": 384},
+    {"level": 7, "cumulativeExperience": 1056, "experienceToNextLevel": 496},
+    {"level": 8, "cumulativeExperience": 1552, "experienceToNextLevel": 632},
+    {"level": 9, "cumulativeExperience": 2184, "experienceToNextLevel": 792},
+    {"level": 10, "cumulativeExperience": 2976, "experienceToNextLevel": 960},
+    {"level": 11, "cumulativeExperience": 3936, "experienceToNextLevel": 1144},
+    {"level": 12, "cumulativeExperience": 5080, "experienceToNextLevel": 1352},
+    {"level": 13, "cumulativeExperience": 6432, "experienceToNextLevel": 1560},
+    {"level": 14, "cumulativeExperience": 7992, "experienceToNextLevel": 1792},
+    {"level": 15, "cumulativeExperience": 9784, "experienceToNextLevel": 2056},
+    {"level": 16, "cumulativeExperience": 11840, "experienceToNextLevel": 2312},
+    {"level": 17, "cumulativeExperience": 14152, "experienceToNextLevel": 2584},
+    {"level": 18, "cumulativeExperience": 16736, "experienceToNextLevel": 2880},
+    {"level": 19, "cumulativeExperience": 19616, "experienceToNextLevel": 3216},
+    {"level": 20, "cumulativeExperience": 22832, "experienceToNextLevel": 3528},
+    {"level": 21, "cumulativeExperience": 26360, "experienceToNextLevel": 3872},
+    {"level": 22, "cumulativeExperience": 30232, "experienceToNextLevel": 4224},
+    {"level": 23, "cumulativeExperience": 34456, "experienceToNextLevel": 4600},
+    {"level": 24, "cumulativeExperience": 39056, "experienceToNextLevel": 5016},
+    {"level": 25, "cumulativeExperience": 44072, "experienceToNextLevel": 5392},
+    {"level": 26, "cumulativeExperience": 49464, "experienceToNextLevel": 5824},
+    {"level": 27, "cumulativeExperience": 55288, "experienceToNextLevel": 6280},
+    {"level": 28, "cumulativeExperience": 61568, "experienceToNextLevel": 6736},
+    {"level": 29, "cumulativeExperience": 68304, "experienceToNextLevel": 7192},
+    {"level": 30, "cumulativeExperience": 75496, "experienceToNextLevel": 7688},
+    {"level": 31, "cumulativeExperience": 83184, "experienceToNextLevel": 8200},
+    {"level": 32, "cumulativeExperience": 91384, "experienceToNextLevel": 8704},
+    {"level": 33, "cumulativeExperience": 100088, "experienceToNextLevel": 9256},
+    {"level": 34, "cumulativeExperience": 109344, "experienceToNextLevel": 9792},
+    {"level": 35, "cumulativeExperience": 119136, "experienceToNextLevel": 10368},
+    {"level": 36, "cumulativeExperience": 129504, "experienceToNextLevel": 10960},
+    {"level": 37, "cumulativeExperience": 140464, "experienceToNextLevel": 11544},
+    {"level": 38, "cumulativeExperience": 152008, "experienceToNextLevel": 12176},
+    {"level": 39, "cumulativeExperience": 164184, "experienceToNextLevel": 12792},
+    {"level": 40, "cumulativeExperience": 176976, "experienceToNextLevel": 13440},
+    {"level": 41, "cumulativeExperience": 190416, "experienceToNextLevel": 14104},
+    {"level": 42, "cumulativeExperience": 204520, "experienceToNextLevel": 14800},
+    {"level": 43, "cumulativeExperience": 219320, "experienceToNextLevel": 15488},
+    {"level": 44, "cumulativeExperience": 234808, "experienceToNextLevel": 16192},
+    {"level": 45, "cumulativeExperience": 251000, "experienceToNextLevel": 16936},
+    {"level": 46, "cumulativeExperience": 267936, "experienceToNextLevel": 17664},
+    {"level": 47, "cumulativeExperience": 285600, "experienceToNextLevel": 18440},
+    {"level": 48, "cumulativeExperience": 304040, "experienceToNextLevel": 19208},
+    {"level": 49, "cumulativeExperience": 323248, "experienceToNextLevel": 20000},
+    {"level": 50, "cumulativeExperience": 343248, "experienceToNextLevel": 20816},
+    {"level": 51, "cumulativeExperience": 364064, "experienceToNextLevel": 21632},
+    {"level": 52, "cumulativeExperience": 385696, "experienceToNextLevel": 22464},
+    {"level": 53, "cumulativeExperience": 408160, "experienceToNextLevel": 23328},
+    {"level": 54, "cumulativeExperience": 431488, "experienceToNextLevel": 24192},
+    {"level": 55, "cumulativeExperience": 455680, "experienceToNextLevel": 25096},
+    {"level": 56, "cumulativeExperience": 480776, "experienceToNextLevel": 25984},
+    {"level": 57, "cumulativeExperience": 506760, "experienceToNextLevel": 26920},
+    {"level": 58, "cumulativeExperience": 533680, "experienceToNextLevel": 27848},
+    {"level": 59, "cumulativeExperience": 561528, "experienceToNextLevel": 28792},
+    {"level": 60, "cumulativeExperience": 590320, "experienceToNextLevel": 29776},
+    {"level": 61, "cumulativeExperience": 620096, "experienceToNextLevel": 30744},
+    {"level": 62, "cumulativeExperience": 650840, "experienceToNextLevel": 31760},
+    {"level": 63, "cumulativeExperience": 682600, "experienceToNextLevel": 32768},
+    {"level": 64, "cumulativeExperience": 715368, "experienceToNextLevel": 33792},
+    {"level": 65, "cumulativeExperience": 749160, "experienceToNextLevel": 34856},
+    {"level": 66, "cumulativeExperience": 784016, "experienceToNextLevel": 35904},
+    {"level": 67, "cumulativeExperience": 819920, "experienceToNextLevel": 37000},
+    {"level": 68, "cumulativeExperience": 856920, "experienceToNextLevel": 38096},
+    {"level": 69, "cumulativeExperience": 895016, "experienceToNextLevel": 39192},
+    {"level": 70, "cumulativeExperience": 934208, "experienceToNextLevel": 40328},
+    {"level": 71, "cumulativeExperience": 974536, "experienceToNextLevel": 41464},
+    {"level": 72, "cumulativeExperience": 1016000, "experienceToNextLevel": 42640},
+    {"level": 73, "cumulativeExperience": 1058640, "experienceToNextLevel": 43816},
+    {"level": 74, "cumulativeExperience": 1102456, "experienceToNextLevel": 45000},
+    {"level": 75, "cumulativeExperience": 1147456, "experienceToNextLevel": 46192},
+    {"level": 76, "cumulativeExperience": 1193648, "experienceToNextLevel": 47432},
+    {"level": 77, "cumulativeExperience": 1241080, "experienceToNextLevel": 48664},
+    {"level": 78, "cumulativeExperience": 1289744, "experienceToNextLevel": 49928},
+    {"level": 79, "cumulativeExperience": 1339672, "experienceToNextLevel": 51200},
+    {"level": 80, "cumulativeExperience": 1390872, "experienceToNextLevel": 52496},
+    {"level": 81, "cumulativeExperience": 1443368, "experienceToNextLevel": 53792},
+    {"level": 82, "cumulativeExperience": 1497160, "experienceToNextLevel": 55104},
+    {"level": 83, "cumulativeExperience": 1552264, "experienceToNextLevel": 56448},
+    {"level": 84, "cumulativeExperience": 1608712, "experienceToNextLevel": 57800},
+    {"level": 85, "cumulativeExperience": 1666512, "experienceToNextLevel": 59176},
+    {"level": 86, "cumulativeExperience": 1725688, "experienceToNextLevel": 60552},
+    {"level": 87, "cumulativeExperience": 1786240, "experienceToNextLevel": 61944},
+    {"level": 88, "cumulativeExperience": 1848184, "experienceToNextLevel": 63368},
+    {"level": 89, "cumulativeExperience": 1911552, "experienceToNextLevel": 64800},
+    {"level": 90, "cumulativeExperience": 1976352, "experienceToNextLevel": 66256},
+    {"level": 91, "cumulativeExperience": 2042608, "experienceToNextLevel": 67712},
+    {"level": 92, "cumulativeExperience": 2110320, "experienceToNextLevel": 69184},
+    {"level": 93, "cumulativeExperience": 2179504, "experienceToNextLevel": 70688},
+    {"level": 94, "cumulativeExperience": 2250192, "experienceToNextLevel": 72200},
+    {"level": 95, "cumulativeExperience": 2322392, "experienceToNextLevel": 73736},
+    {"level": 96, "cumulativeExperience": 2396128, "experienceToNextLevel": 75272},
+    {"level": 97, "cumulativeExperience": 2471400, "experienceToNextLevel": 76824},
+    {"level": 98, "cumulativeExperience": 2548224, "experienceToNextLevel": 88888},
+    {"level": 99, "cumulativeExperience": 2637112, "experienceToNextLevel": null}
+  ],
+  "lineChartConfigurations":
+  {
+    "lineColor": "#6F0000",
+    "backgroundColor": "#F7E1E1",
+    "secondaryBackgroundColor": "#E0E0E0"
+  },
+  "sunburstChartConfigurations":
+  {
+    "color": "#EE9F9F",
+    "levels":
+    [
+      {
+        "description": "Sunburst Level 1",
+        "parts":
+        [
+          {
+            "start": 1,
+            "end": 98
+          }
+        ]
+      },
+      {
+        "description": "Sunburst Level 2",
+        "parts":
+        [
+          {
+            "start": 1,
+            "end": 50
+          },
+          {
+            "start": 51,
+            "end": 98
+          }
+        ]
+      },
+      {
+        "description": "Sunburst Level 3",
+        "parts":
+        [
+          {
+            "start": 1,
+            "end": 25
+          },
+          {
+            "start": 26,
+            "end": 50
+          },
+          {
+            "start": 51,
+            "end": 75
+          },
+          {
+            "start": 76,
+            "end": 98
+          }
+        ]
+      }
+    ]
+  }
+}

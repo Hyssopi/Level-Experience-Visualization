@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <script src="lib/jquery-3.3.1.js"></script>
+  <script src="lib/jquery-ui-1.12.1.js"></script>
+  <script src="lib/chroma.js"></script>
+  <link href="styles/jquery-ui-1.12.1.css" rel="stylesheet"/>
+  <link href="styles/styles.css" rel="stylesheet"/>
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>Level Experience Visualization</title>
+  </head>
+  
+  <body>
+    <div style="display: flex; flex-flow: row wrap; justify-content: space-between; margin: 0px 0px 5px 0px;">
+      <div class="tab">
+        <button class="tabLinks" onclick="openTab(event, 'levelExperienceLineChartId')">Line Chart</button>
+        <button class="tabLinks" onclick="openTab(event, 'levelExperienceSunburstChartId')">Sunburst Chart</button>
+        <button class="tabLinks" onclick="openTab(event, 'levelExperienceDataTableId')">Data Table</button>
+        <button class="tabLinks" onclick="openTab(event, 'levelExperienceReferencesId')">References</button>
+      </div>
+      <form action="#">
+        <fieldset style="border: 0; padding: 0px;">
+          <div id="levelExperienceSelectHtmlWrapper"></div>
+        </fieldset>
+      </form>
+    </div>
+    
+    <div id="levelExperienceLineChartId" class="tabContent" style="display: none">
+      <div id="levelExperienceLineChartHtmlWrapper"></div>
+    </div>
+    
+    <div id="levelExperienceSunburstChartId" class="tabContent" style="display: none">
+      <!-- TODO: Trying to center will cause visual glitches when hovering over the sunburst chart
+      <div id="levelExperienceSunburstChartHtmlWrapper" style="display: flex; justify-content: center;"></div>
+      -->
+      <div id="levelExperienceSunburstChartHtmlWrapper"></div>
+    </div>
+    
+    <div id="levelExperienceDataTableId" class="tabContent" style="display: none">
+      <div id="levelExperienceDataTableHtmlWrapper"></div>
+    </div>
+    
+    <div id="levelExperienceReferencesId" class="tabContent" style="display: block">
+      <div id="levelExperienceReferencesHtmlWrapper"></div>
+    </div>
+  </body>
+  
+  <script src="scripts/main.js" type="module"></script>
+  <script>
+    function openTab(event, tabId)
+    {
+      let tabContent, tabLinks;
+      tabContent = document.getElementsByClassName('tabContent');
+      for (let i = 0; i < tabContent.length; i++)
+      {
+        tabContent[i].style.display = 'none';
+      }
+      tabLinks = document.getElementsByClassName('tabLinks');
+      for (let i = 0; i < tabLinks.length; i++)
+      {
+        tabLinks[i].className = tabLinks[i].className.replace(' active', '');
+      }
+      document.getElementById(tabId).style.display = 'block';
+      event.currentTarget.className += ' active';
+    }
+  </script>
+</html>

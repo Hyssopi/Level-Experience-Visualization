@@ -1,0 +1,75 @@
+
+body
+{
+  font-family: Times New Roman, Liberation Serif, serif;
+}
+
+.tab
+{
+  overflow: hidden;
+  border: 1px solid #CCCCCC;
+  background-color: #F1F1F1;
+}
+
+/* Style the buttons inside the tab */
+.tab button
+{
+  background-color: inherit;
+  float: left;
+  border: 1px solid #696969;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover
+{
+  background-color: #DDDDDD;
+}
+
+/* Create an active/current tablink class */
+.tab button.active
+{
+  background-color: #CCCCCC;
+}
+
+/* Style the tab content */
+.tabcontent
+{
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #CCCCCC;
+  border-top: none;
+}
+
+/* Highcharts sunburst chart sometimes shows graphical glitches when hovering around with mouse after loading a game and switching tabs */
+.highcharts-container
+{
+  position: unset !important;
+}
+
+th, td
+{
+  border: 2px solid #000000;
+}
+
+th
+{
+  background-color: #D3D3D3;
+  padding: 10px;
+  font-size: 20px;
+}
+
+td
+{
+  background-color: #DCDCDC;
+  font-size: 18px;
+}
+
+.hoverRowHighlight tr:hover
+{
+  filter: drop-shadow(0px 0px 20px black);
+}

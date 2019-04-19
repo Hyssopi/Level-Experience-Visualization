@@ -1,0 +1,83 @@
+{
+  "gameName": "Super Mario RPG: Legend of the Seven Stars<br>",
+  "titleImageUri": "images/titles/SuperMarioRPGTitle.png",
+  "references":
+  [
+    "https://gamefaqs.gamespot.com/snes/588739-super-mario-rpg-legend-of-the-seven-stars/images/21",
+    "https://gamefaqs.gamespot.com/snes/588739-super-mario-rpg-legend-of-the-seven-stars/faqs/8365?page=4#section257"
+  ],
+  "data":
+  [
+    {"level": 1, "cumulativeExperience": 0, "experienceToNextLevel": 16},
+    {"level": 2, "cumulativeExperience": 16, "experienceToNextLevel": 32},
+    {"level": 3, "cumulativeExperience": 48, "experienceToNextLevel": 36},
+    {"level": 4, "cumulativeExperience": 84, "experienceToNextLevel": 46},
+    {"level": 5, "cumulativeExperience": 130, "experienceToNextLevel": 70},
+    {"level": 6, "cumulativeExperience": 200, "experienceToNextLevel": 90},
+    {"level": 7, "cumulativeExperience": 290, "experienceToNextLevel": 112},
+    {"level": 8, "cumulativeExperience": 402, "experienceToNextLevel": 136},
+    {"level": 9, "cumulativeExperience": 538, "experienceToNextLevel": 152},
+    {"level": 10, "cumulativeExperience": 690, "experienceToNextLevel": 200},
+    {"level": 11, "cumulativeExperience": 890, "experienceToNextLevel": 220},
+    {"level": 12, "cumulativeExperience": 1110, "experienceToNextLevel": 250},
+    {"level": 13, "cumulativeExperience": 1360, "experienceToNextLevel": 280},
+    {"level": 14, "cumulativeExperience": 1640, "experienceToNextLevel": 310},
+    {"level": 15, "cumulativeExperience": 1950, "experienceToNextLevel": 340},
+    {"level": 16, "cumulativeExperience": 2290, "experienceToNextLevel": 370},
+    {"level": 17, "cumulativeExperience": 2660, "experienceToNextLevel": 400},
+    {"level": 18, "cumulativeExperience": 3060, "experienceToNextLevel": 430},
+    {"level": 19, "cumulativeExperience": 3490, "experienceToNextLevel": 460},
+    {"level": 20, "cumulativeExperience": 3950, "experienceToNextLevel": 490},
+    {"level": 21, "cumulativeExperience": 4440, "experienceToNextLevel": 500},
+    {"level": 22, "cumulativeExperience": 4940, "experienceToNextLevel": 570},
+    {"level": 23, "cumulativeExperience": 5510, "experienceToNextLevel": 578},
+    {"level": 24, "cumulativeExperience": 6088, "experienceToNextLevel": 604},
+    {"level": 25, "cumulativeExperience": 6692, "experienceToNextLevel": 628},
+    {"level": 26, "cumulativeExperience": 7320, "experienceToNextLevel": 648},
+    {"level": 27, "cumulativeExperience": 7968, "experienceToNextLevel": 666},
+    {"level": 28, "cumulativeExperience": 8634, "experienceToNextLevel": 691},
+    {"level": 29, "cumulativeExperience": 9325, "experienceToNextLevel": 674},
+    {"level": 30, "cumulativeExperience": 9999, "experienceToNextLevel": null}
+  ],
+  "lineChartConfigurations":
+  {
+    "lineColor": "#E60606",
+    "backgroundColor": "#F2FCAA",
+    "secondaryBackgroundColor": "#E0E0E0"
+  },
+  "sunburstChartConfigurations":
+  {
+    "color": "#FF8788",
+    "levels":
+    [
+      {
+        "description": "Sunburst Level 1",
+        "parts":
+        [
+          {
+            "start": 1,
+            "end": 29
+          }
+        ]
+      },
+      {
+        "description": "Sunburst Level 2",
+        "parts":
+        [
+          {
+            "start": 1,
+            "end": 9
+          },
+          {
+            "start": 10,
+            "end": 19
+          },
+          {
+            "start": 20,
+            "end": 29
+          }
+        ]
+      }
+    ]
+  }
+}
