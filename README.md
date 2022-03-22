@@ -3,7 +3,10 @@ Interactive visualization of level and experience data for a selected list of ga
 
 ![splash](images/splash.png)
 
-## GitHub Pages
+## Working Demo
+https://www.youtube.com/watch?v=DqeCPDgT_EE
+
+## Try It Out
 https://hyssopi.github.io/Level-Experience-Visualization/
 
 ## Prerequisites
